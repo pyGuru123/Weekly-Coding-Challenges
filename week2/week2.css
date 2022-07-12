@@ -1,15 +1,16 @@
-h1 {
-	color: red;
-	text-align: center;
-}
-
 div {
 	left: 50%;
-	right: 50%;
+	top: 50%;
 	position: absolute;
 	width: 512px;
 	transform: translate(-50%, -50%);
-	margin-top: 120px;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	padding-bottom: 20px;
+	user-select: none;
 }
 
 div > p {
