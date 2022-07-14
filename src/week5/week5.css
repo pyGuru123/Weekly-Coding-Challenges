@@ -13,7 +13,7 @@ body, html {
 	padding-top: 10px;
 }
 
-.header a, a:visited, a:link {
+.header a, .header a:visited, .header a:link {
 	color: rgb(218, 218, 218);
 	cursor: pointer;
 	text-decoration: none;
@@ -25,15 +25,13 @@ body, html {
 	position: absolute;
 	width: 512px;
 	transform: translate(-50%, -50%);
-	border: 1px solid green;
-	padding: 30px;
-	border-radius: 12px;
 }
 
 h1 {
 	color: red;
 	text-align: center;
 	padding-bottom: 20px;
+	user-select: none;
 }
 
 .main > p {
@@ -42,19 +40,14 @@ h1 {
 	text-align: center;
 }
 
-ul {
-	list-style: none;
-	text-align: center;
-}
-
-li {
-	padding-top: 6px;
-	font-family: 'cursive';
-	font-size: 18px;
-}
-
 img {
-	width: 220px;
-	height: 220px;
-	margin: auto;
+	left: 50%;
+	right: 50%;
+	position: relative;
+	transform: translate(-50%, -50%);
+	padding-top: 50px;
+}
+
+.span {
+	color: gold;
 }
